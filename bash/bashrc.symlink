@@ -56,7 +56,7 @@ if [ "$unamestr" = "Linux" ]; then
   export LANG=en_AU.UTF-8
 elif [ "$unamestr" = "Darwin" ]; then
   export GOOS=darwin
-
+  # Some random alias
   # Brew path additions
   export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
